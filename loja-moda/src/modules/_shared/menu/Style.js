@@ -26,6 +26,10 @@ export const ContainerLogo = styled.div`
 export const ContainerOptions = styled.div`
     display: flex;
     justify-content: center;
+
+    @media(max-width: 900px) {
+        display: none;
+    }
 `;
 
 export const ContainerItem = styled.div`
