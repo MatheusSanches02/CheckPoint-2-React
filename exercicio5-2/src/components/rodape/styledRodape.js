@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ElHtml = styled.html`
+export const Footer = styled.html`
     footer{
         background-color: var(--primary);
         width: 100%;
