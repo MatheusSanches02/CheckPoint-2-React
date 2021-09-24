@@ -1,7 +1,7 @@
 import React from 'react';
-import ChildBanner from '../../../../assets/images/child_banner.jpg';
-import MaleBanner from '../../../../assets/images/male_banner.jpg';
-import ModelBanner from '../../../../assets/images/model_banner.jpg';
+import ChildBanner from '../../../../assets/images/home/child_banner.jpg';
+import MaleBanner from '../../../../assets/images/home/male_banner.jpg';
+import ModelBanner from '../../../../assets/images/home/model_banner.jpg';
 import CardTrend from '../cardTrend/CardTrend';
 import { ContainerCards, ContainerPage, Title } from './Style';
 

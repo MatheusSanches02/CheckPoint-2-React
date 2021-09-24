@@ -1,13 +1,8 @@
 import styled from "styled-components";
 
-export const ContainerLogo = styled.div`
-    img {
-        width: 100px;
-    }
-`;
-
 export const ContainerMenu = styled.div`
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     width: calc(100% - 220px);
@@ -20,6 +15,12 @@ export const ContainerMenu = styled.div`
     color: var(--font);
     box-shadow: var(--shadow);
     border: solid 1px var(--border-light);
+`;
+
+export const ContainerLogo = styled.div`
+    img {
+        width: 100px;
+    }
 `;
 
 export const ContainerOptions = styled.div`

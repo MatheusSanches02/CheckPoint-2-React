@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../../assets/images/moda-logo.png';
+import Logo from '../../../assets/images/menu/moda-logo.png';
 import { ContainerItem, ContainerLogo, ContainerMenu, ContainerOptions } from './Style';
 
 export default function Menu() {

@@ -9,7 +9,7 @@ export const Title = styled.h1`
 `;
 
 export const ContainerCards = styled.div`
-    margin-top: 12px;
+    margin-top: 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 12px;
