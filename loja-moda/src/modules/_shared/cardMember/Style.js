@@ -14,7 +14,6 @@ export const ContainerCard = styled.div`
 
 export const ContainerImage = styled.div`
     height: 300px;
-    background-color: red;
 
     img 
     {

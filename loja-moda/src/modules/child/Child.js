@@ -1,17 +1,4 @@
 import React from 'react';
-import image01 from '../../assets/images/child/image01.jpg';
-import image02 from '../../assets/images/child/image02.jpg';
-import image03 from '../../assets/images/child/image03.jpg';
-import image04 from '../../assets/images/child/image04.jpg';
-import image05 from '../../assets/images/child/image05.jpg';
-import image06 from '../../assets/images/child/image06.jpg';
-import image07 from '../../assets/images/child/image07.jpg';
-import image08 from '../../assets/images/child/image08.jpg';
-import image09 from '../../assets/images/child/image09.jpg';
-import image10 from '../../assets/images/child/image10.jpg';
-import image11 from '../../assets/images/child/image11.jpg';
-import image12 from '../../assets/images/child/image12.jpg';
-import image13 from '../../assets/images/child/image13.jpg';
 import CardClothe from '../_shared/cardClothe/CardClothe';
 import { ContainerCards, ContainerPage, Title } from './Style';
 
@@ -24,55 +11,55 @@ export default function Child() {
                 {/* Listagem dos cards */}
                 <ContainerCards>
                     <CardClothe 
-                        image={image01}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage01.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$699,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image02}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage02.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$839,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image03}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage03.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$499,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image04}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage04.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$249,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image05}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage05.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$490,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image06}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage06.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$399,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image07}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage07.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$459,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image08}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage08.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$999,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image09}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage09.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$299,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image10}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage10.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$389,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image11}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage11.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$340,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image12}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage12.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$349,00">
                     </CardClothe>
                     <CardClothe 
-                        image={image13}
+                        image="https://firebasestorage.googleapis.com/v0/b/fover-1349a.appspot.com/o/fiap%2Fchild%2Fimage13.jpg?alt=media&token=8c35382e-c3dc-4645-974e-84fd1099dce6"
                         price="R$899,00">
                     </CardClothe>
                 </ContainerCards>
