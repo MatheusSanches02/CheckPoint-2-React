@@ -1,14 +1,16 @@
 import styled from 'styled-components'
 
 
-export const CorpoSorveteria = styled.html `
+export const CorpoSorveteria = styled.section `
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: var(--background);
- 
+    height: calc(100vh - 75px);
+    align-items: center;
+    grid-gap: 70px;
 `
 
-export const Sabores = styled.html`
+export const Sabores = styled.div`
     margin-top:2%;
     margin-bottom: 2%;
     color: var(--font-light);
@@ -16,7 +18,7 @@ export const Sabores = styled.html`
 
 `
 
-export const Coberturas = styled.html`
+export const Coberturas = styled.div`
     margin-top:2%;
     margin-bottom:2%;
     color: var(--font-light);
