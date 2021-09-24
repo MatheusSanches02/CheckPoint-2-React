@@ -9,12 +9,14 @@ export const CorpoSorveteria = styled.html `
 `
 
 export const Sabores = styled.html`
-    
+    margin-top:2%;
     color: var(--font-light);
     text-decoration: none;
+    
 `
 
 export const Coberturas = styled.html`
+    margin-top:2%;
     color: var(--font-light);
     text-decoration: none;
 

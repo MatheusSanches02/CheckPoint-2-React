@@ -4,13 +4,13 @@ import { Coberturas, CorpoSorveteria, Sabores } from './styledCorpo'
 export default function Corpo(props) {
 
     const sabores = props.sorvetes.map(
-        (s,i) => 
-        <li key={i}>{i+1} - {s}</li>
+        (s) => 
+        <li>{s}</li>
     )
 
     const coberturas = props.coberturas.map(
-        (c,i) => 
-        <li key={i}>{i+1} - {c}</li>
+        (c) => 
+        <li>{c}</li>
     )
 
     return (
@@ -21,7 +21,7 @@ export default function Corpo(props) {
                     <h2>{sabores}</h2>
                 </Sabores>
                 <Coberturas>
-                    <h1>Coberturas</h1>
+                    <h1>Acompanhamentos</h1>
                     <h2>{coberturas}</h2>
                 </Coberturas>
             </CorpoSorveteria>
