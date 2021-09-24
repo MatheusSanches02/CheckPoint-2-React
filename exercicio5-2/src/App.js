@@ -1,6 +1,8 @@
 import './App.css';
 import './assets/css/style.css';
+import './assets/css/style.css'
 import Corpo from './components/corpo/Corpo';
+import Rodape from './components/rodape/Rodape'
 import Cabecalho from './components/cabecalho/Cabecalho';
 
 function App() {
@@ -11,12 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      <header>
-        <Cabecalho/>
-      </header>
-      <body>
-        <Corpo sorvetes = {listaSabores} coberturas = {listaCoberturas}/>
-      </body>
+      <Cabecalho/>
+      <Corpo sorvetes = {listaSabores} coberturas = {listaCoberturas}/>
+      <Rodape/>
     </div>
   );
 }
