@@ -16,7 +16,6 @@ export default function Corpo(props) {
     return (
 
             <CorpoSorveteria>
-                <body>
                     <Sabores>
                         <h1>Sabores</h1>
                         <h2>{sabores}</h2>
@@ -25,7 +24,6 @@ export default function Corpo(props) {
                         <h1>Acompanhamentos</h1>
                         <h2>{coberturas}</h2>
                     </Coberturas>
-                </body>
             </CorpoSorveteria>
     )
 }
