@@ -4,7 +4,7 @@ export const ElHtml = styled.html`
     header{
         background-color: var(--primary);
         width: 100%;
-        height: 70px;
+        height: 73px;
     }
     h1{
         color:var(--white);
