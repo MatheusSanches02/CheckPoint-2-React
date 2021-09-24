@@ -14,17 +14,18 @@ export default function Corpo(props) {
     )
 
     return (
-        <div>
+
             <CorpoSorveteria>
-                <Sabores>
-                    <h1>Sabores</h1>
-                    <h2>{sabores}</h2>
-                </Sabores>
-                <Coberturas>
-                    <h1>Acompanhamentos</h1>
-                    <h2>{coberturas}</h2>
-                </Coberturas>
+                <body>
+                    <Sabores>
+                        <h1>Sabores</h1>
+                        <h2>{sabores}</h2>
+                    </Sabores>
+                    <Coberturas>
+                        <h1>Acompanhamentos</h1>
+                        <h2>{coberturas}</h2>
+                    </Coberturas>
+                </body>
             </CorpoSorveteria>
-        </div>
     )
 }
