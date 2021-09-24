@@ -1,8 +1,7 @@
 import './App.css';
-
-
-import './assets/css/style.css'
+import './assets/css/style.css';
 import Corpo from './components/corpo/Corpo';
+import Cabecalho from './components/cabecalho/Cabecalho';
 
 function App() {
 
@@ -12,7 +11,12 @@ function App() {
 
   return (
     <div className="App">
-      <Corpo sorvetes = {listaSabores} coberturas = {listaCoberturas}/>
+      <header>
+        <Cabecalho/>
+      </header>
+      <body>
+        <Corpo sorvetes = {listaSabores} coberturas = {listaCoberturas}/>
+      </body>
     </div>
   );
 }
